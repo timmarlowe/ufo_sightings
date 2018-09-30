@@ -11,7 +11,7 @@ We used data collected from [The National UFO Reporting Center Online Database](
 
 
 ### Cleaning The File
-This undoubtedly took most of our time. Here's our cleaning pipeline:
+We used the BeautifulSoup library to parse and clean the data. This undoubtedly took most of our time. Here's our cleaning pipeline:
 ```python
 import json
 #Accessing text and creating list of lists with beautiful soup
